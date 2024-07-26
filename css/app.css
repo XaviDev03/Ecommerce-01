@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.nombre-sitio {
+    color: aqua;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nombre-sitio span {
+    color: #037bc0;
+}
+
+/* BOX MODEL */
+
+.sobre-nosotros {
+    background-color: aqua;
+    width: 200px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.sobre-empresa {
+    background-color: beige;
+    width: 500px;
+    padding: 100px;
+}
+
+
+
+
+
