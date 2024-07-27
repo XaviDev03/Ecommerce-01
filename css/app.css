@@ -5,14 +5,50 @@ html {
     box-sizing: inherit;
 }
 
+/* GLOBALES */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/** HEADER Y NAVEGACION **/
+
 .nombre-sitio {
     color: aqua;
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .nombre-sitio span {
     color: #037bc0;
+}
+
+.contenedor-navegacion {
+    border-top: 1px solid aquamarine;
+}
+
+.nav-principal {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
 }
 
 /* BOX MODEL */
@@ -30,7 +66,12 @@ html {
     padding: 100px;
 }
 
+/* DISPLAYS */
 
-
-
+/** CATEGORIAS **/
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
